@@ -6,7 +6,7 @@ Intelligently filters filler words ("um", "uh", "hmm") when the agent is speakin
 ## Quick Test
 No setup needed:
 ```bash
-python agent3.py test
+python agent.py test
 ```
 
 **Expected Output:**
@@ -44,7 +44,7 @@ cp .env.template .env
 
 ### 3. Run
 ```bash
-python agent3.py dev
+python agent.py dev
 ```
 
 ## Configuration
@@ -154,7 +154,7 @@ All 33 test scenarios pass covering:
 
 ## Files
 
-- `agent3.py`: Main agent implementation with InterruptManager class
+- `agent.py`: Main agent implementation with InterruptManager class
 - `README.md`: This file
 - `.env`: Configuration file (not tracked in git)
 - `.env.template`: Template for environment configuration
@@ -188,7 +188,7 @@ All functionality validated through testing (33/33 scenarios pass).
 
 1. **Run test harness**:
 ```bash
-   python agent3.py test
+   python agent.py test
 ```
 
 2. **Verify output**:
@@ -198,7 +198,7 @@ All functionality validated through testing (33/33 scenarios pass).
 
 3. **Run live agent**:
 ```bash
-   python agent3.py dev
+   python agent.py dev
 ```
 
 4. **Manual testing**:
