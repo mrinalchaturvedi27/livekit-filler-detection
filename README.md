@@ -159,7 +159,7 @@ All 33 test scenarios pass covering:
 - `.env`: Configuration file (not tracked in git)
 - `.env.template`: Template for environment configuration
 
-## Author
+## Made By
 
 Mrinal Chaturvedi  
 IIT Kanpur, Civil Engineering (3rd Year)  
